@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08394C62024003AB6E0BA300 /* Pods_Intercom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E26D5C9B3B4E4EDB26CE8D0 /* Pods_Intercom.framework */; };
+		17DFDC60EAD14621DECBF2B3 /* Pods_IntercomTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF8BB4315D6952BC0234C3B /* Pods_IntercomTests.framework */; };
+		76AFAA1621DCEA2900DBEB02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AFAA1521DCEA2900DBEB02 /* AppDelegate.swift */; };
+		76AFAA1821DCEA2900DBEB02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AFAA1721DCEA2900DBEB02 /* ViewController.swift */; };
+		76AFAA1B21DCEA2900DBEB02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76AFAA1921DCEA2900DBEB02 /* Main.storyboard */; };
+		76AFAA1D21DCEA3400DBEB02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76AFAA1C21DCEA3400DBEB02 /* Assets.xcassets */; };
+		76AFAA2021DCEA3400DBEB02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76AFAA1E21DCEA3400DBEB02 /* LaunchScreen.storyboard */; };
+		76AFAA2B21DCEA3400DBEB02 /* IntercomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AFAA2A21DCEA3400DBEB02 /* IntercomTests.swift */; };
+		76AFAA3621DCEA3400DBEB02 /* IntercomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AFAA3521DCEA3400DBEB02 /* IntercomUITests.swift */; };
+		9FAEFF4772B9CFCD6C88C913 /* Pods_IntercomUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 546F3D91AE330B31906D6A59 /* Pods_IntercomUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76AFAA2721DCEA3400DBEB02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76AFAA0A21DCEA2900DBEB02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76AFAA1121DCEA2900DBEB02;
+			remoteInfo = Intercom;
+		};
+		76AFAA3221DCEA3400DBEB02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76AFAA0A21DCEA2900DBEB02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76AFAA1121DCEA2900DBEB02;
+			remoteInfo = Intercom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E42E37B94EB8F4362E02965 /* Pods-Intercom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Intercom.release.xcconfig"; path = "Target Support Files/Pods-Intercom/Pods-Intercom.release.xcconfig"; sourceTree = "<group>"; };
+		4E26D5C9B3B4E4EDB26CE8D0 /* Pods_Intercom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Intercom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		546F3D91AE330B31906D6A59 /* Pods_IntercomUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntercomUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA4AD6C5F205A8EE8FA106D /* Pods-IntercomUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntercomUITests.release.xcconfig"; path = "Target Support Files/Pods-IntercomUITests/Pods-IntercomUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6F45D1F677E22A676BDB17FD /* Pods-IntercomTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntercomTests.release.xcconfig"; path = "Target Support Files/Pods-IntercomTests/Pods-IntercomTests.release.xcconfig"; sourceTree = "<group>"; };
+		76AFAA1221DCEA2900DBEB02 /* Intercom POC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Intercom POC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76AFAA1521DCEA2900DBEB02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76AFAA1721DCEA2900DBEB02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76AFAA1A21DCEA2900DBEB02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76AFAA1C21DCEA3400DBEB02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76AFAA1F21DCEA3400DBEB02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76AFAA2121DCEA3400DBEB02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76AFAA2621DCEA3400DBEB02 /* Intercom POCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Intercom POCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76AFAA2A21DCEA3400DBEB02 /* IntercomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntercomTests.swift; sourceTree = "<group>"; };
+		76AFAA2C21DCEA3400DBEB02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76AFAA3121DCEA3400DBEB02 /* Intercom POCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Intercom POCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76AFAA3521DCEA3400DBEB02 /* IntercomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntercomUITests.swift; sourceTree = "<group>"; };
+		76AFAA3721DCEA3400DBEB02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BCFD0425D2E3CDAEECE589F /* Pods-IntercomUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntercomUITests.debug.xcconfig"; path = "Target Support Files/Pods-IntercomUITests/Pods-IntercomUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9DFEB5CEF9C12C204646D9E3 /* Pods-Intercom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Intercom.debug.xcconfig"; path = "Target Support Files/Pods-Intercom/Pods-Intercom.debug.xcconfig"; sourceTree = "<group>"; };
+		BBF8BB4315D6952BC0234C3B /* Pods_IntercomTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntercomTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4170EEE903C295ADCE3C9A0 /* Pods-IntercomTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntercomTests.debug.xcconfig"; path = "Target Support Files/Pods-IntercomTests/Pods-IntercomTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76AFAA0F21DCEA2900DBEB02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08394C62024003AB6E0BA300 /* Pods_Intercom.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AFAA2321DCEA3400DBEB02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DFDC60EAD14621DECBF2B3 /* Pods_IntercomTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AFAA2E21DCEA3400DBEB02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FAEFF4772B9CFCD6C88C913 /* Pods_IntercomUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		178CBE2542D79BB5B6DD215B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E26D5C9B3B4E4EDB26CE8D0 /* Pods_Intercom.framework */,
+				BBF8BB4315D6952BC0234C3B /* Pods_IntercomTests.framework */,
+				546F3D91AE330B31906D6A59 /* Pods_IntercomUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76AFAA0921DCEA2900DBEB02 = {
+			isa = PBXGroup;
+			children = (
+				76AFAA1421DCEA2900DBEB02 /* Intercom */,
+				76AFAA2921DCEA3400DBEB02 /* IntercomTests */,
+				76AFAA3421DCEA3400DBEB02 /* IntercomUITests */,
+				76AFAA1321DCEA2900DBEB02 /* Products */,
+				86D680D10232C39DB8506E72 /* Pods */,
+				178CBE2542D79BB5B6DD215B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		76AFAA1321DCEA2900DBEB02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76AFAA1221DCEA2900DBEB02 /* Intercom POC.app */,
+				76AFAA2621DCEA3400DBEB02 /* Intercom POCTests.xctest */,
+				76AFAA3121DCEA3400DBEB02 /* Intercom POCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76AFAA1421DCEA2900DBEB02 /* Intercom */ = {
+			isa = PBXGroup;
+			children = (
+				76AFAA1521DCEA2900DBEB02 /* AppDelegate.swift */,
+				76AFAA1721DCEA2900DBEB02 /* ViewController.swift */,
+				76AFAA1921DCEA2900DBEB02 /* Main.storyboard */,
+				76AFAA1C21DCEA3400DBEB02 /* Assets.xcassets */,
+				76AFAA1E21DCEA3400DBEB02 /* LaunchScreen.storyboard */,
+				76AFAA2121DCEA3400DBEB02 /* Info.plist */,
+			);
+			path = Intercom;
+			sourceTree = "<group>";
+		};
+		76AFAA2921DCEA3400DBEB02 /* IntercomTests */ = {
+			isa = PBXGroup;
+			children = (
+				76AFAA2A21DCEA3400DBEB02 /* IntercomTests.swift */,
+				76AFAA2C21DCEA3400DBEB02 /* Info.plist */,
+			);
+			path = IntercomTests;
+			sourceTree = "<group>";
+		};
+		76AFAA3421DCEA3400DBEB02 /* IntercomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76AFAA3521DCEA3400DBEB02 /* IntercomUITests.swift */,
+				76AFAA3721DCEA3400DBEB02 /* Info.plist */,
+			);
+			path = IntercomUITests;
+			sourceTree = "<group>";
+		};
+		86D680D10232C39DB8506E72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DFEB5CEF9C12C204646D9E3 /* Pods-Intercom.debug.xcconfig */,
+				1E42E37B94EB8F4362E02965 /* Pods-Intercom.release.xcconfig */,
+				D4170EEE903C295ADCE3C9A0 /* Pods-IntercomTests.debug.xcconfig */,
+				6F45D1F677E22A676BDB17FD /* Pods-IntercomTests.release.xcconfig */,
+				8BCFD0425D2E3CDAEECE589F /* Pods-IntercomUITests.debug.xcconfig */,
+				6DA4AD6C5F205A8EE8FA106D /* Pods-IntercomUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76AFAA1121DCEA2900DBEB02 /* Intercom POC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76AFAA3A21DCEA3400DBEB02 /* Build configuration list for PBXNativeTarget "Intercom POC" */;
+			buildPhases = (
+				D7139A8B55ECDCD12CFBE15F /* [CP] Check Pods Manifest.lock */,
+				76AFAA0E21DCEA2900DBEB02 /* Sources */,
+				76AFAA0F21DCEA2900DBEB02 /* Frameworks */,
+				76AFAA1021DCEA2900DBEB02 /* Resources */,
+				C56A5876EF49179BE3E2025B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Intercom POC";
+			productName = Intercom;
+			productReference = 76AFAA1221DCEA2900DBEB02 /* Intercom POC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76AFAA2521DCEA3400DBEB02 /* Intercom POCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76AFAA3D21DCEA3400DBEB02 /* Build configuration list for PBXNativeTarget "Intercom POCTests" */;
+			buildPhases = (
+				9EBADC9CA2180AE016259C3E /* [CP] Check Pods Manifest.lock */,
+				76AFAA2221DCEA3400DBEB02 /* Sources */,
+				76AFAA2321DCEA3400DBEB02 /* Frameworks */,
+				76AFAA2421DCEA3400DBEB02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76AFAA2821DCEA3400DBEB02 /* PBXTargetDependency */,
+			);
+			name = "Intercom POCTests";
+			productName = IntercomTests;
+			productReference = 76AFAA2621DCEA3400DBEB02 /* Intercom POCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76AFAA3021DCEA3400DBEB02 /* Intercom POCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76AFAA4021DCEA3400DBEB02 /* Build configuration list for PBXNativeTarget "Intercom POCUITests" */;
+			buildPhases = (
+				0FE47A4C8C09E7040011A578 /* [CP] Check Pods Manifest.lock */,
+				76AFAA2D21DCEA3400DBEB02 /* Sources */,
+				76AFAA2E21DCEA3400DBEB02 /* Frameworks */,
+				76AFAA2F21DCEA3400DBEB02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76AFAA3321DCEA3400DBEB02 /* PBXTargetDependency */,
+			);
+			name = "Intercom POCUITests";
+			productName = IntercomUITests;
+			productReference = 76AFAA3121DCEA3400DBEB02 /* Intercom POCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76AFAA0A21DCEA2900DBEB02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = SmartData;
+				TargetAttributes = {
+					76AFAA1121DCEA2900DBEB02 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					76AFAA2521DCEA3400DBEB02 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 76AFAA1121DCEA2900DBEB02;
+					};
+					76AFAA3021DCEA3400DBEB02 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 76AFAA1121DCEA2900DBEB02;
+					};
+				};
+			};
+			buildConfigurationList = 76AFAA0D21DCEA2900DBEB02 /* Build configuration list for PBXProject "Intercom POC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76AFAA0921DCEA2900DBEB02;
+			productRefGroup = 76AFAA1321DCEA2900DBEB02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76AFAA1121DCEA2900DBEB02 /* Intercom POC */,
+				76AFAA2521DCEA3400DBEB02 /* Intercom POCTests */,
+				76AFAA3021DCEA3400DBEB02 /* Intercom POCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76AFAA1021DCEA2900DBEB02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AFAA2021DCEA3400DBEB02 /* LaunchScreen.storyboard in Resources */,
+				76AFAA1D21DCEA3400DBEB02 /* Assets.xcassets in Resources */,
+				76AFAA1B21DCEA2900DBEB02 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AFAA2421DCEA3400DBEB02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AFAA2F21DCEA3400DBEB02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FE47A4C8C09E7040011A578 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IntercomUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EBADC9CA2180AE016259C3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IntercomTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C56A5876EF49179BE3E2025B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Intercom/Pods-Intercom-resources.sh",
+				"${PODS_ROOT}/Intercom/Intercom/Intercom.framework/Versions/A/Resources/Intercom.bundle",
+				"${PODS_ROOT}/Intercom/Intercom/Intercom.framework/Versions/A/Resources/IntercomTranslations.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Intercom.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IntercomTranslations.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Intercom/Pods-Intercom-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7139A8B55ECDCD12CFBE15F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Intercom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76AFAA0E21DCEA2900DBEB02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AFAA1821DCEA2900DBEB02 /* ViewController.swift in Sources */,
+				76AFAA1621DCEA2900DBEB02 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AFAA2221DCEA3400DBEB02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AFAA2B21DCEA3400DBEB02 /* IntercomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AFAA2D21DCEA3400DBEB02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AFAA3621DCEA3400DBEB02 /* IntercomUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76AFAA2821DCEA3400DBEB02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76AFAA1121DCEA2900DBEB02 /* Intercom POC */;
+			targetProxy = 76AFAA2721DCEA3400DBEB02 /* PBXContainerItemProxy */;
+		};
+		76AFAA3321DCEA3400DBEB02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76AFAA1121DCEA2900DBEB02 /* Intercom POC */;
+			targetProxy = 76AFAA3221DCEA3400DBEB02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76AFAA1921DCEA2900DBEB02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76AFAA1A21DCEA2900DBEB02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76AFAA1E21DCEA3400DBEB02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76AFAA1F21DCEA3400DBEB02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76AFAA3821DCEA3400DBEB02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76AFAA3921DCEA3400DBEB02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76AFAA3B21DCEA3400DBEB02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DFEB5CEF9C12C204646D9E3 /* Pods-Intercom.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Intercom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SmartData.Intercom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76AFAA3C21DCEA3400DBEB02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E42E37B94EB8F4362E02965 /* Pods-Intercom.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Intercom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SmartData.Intercom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		76AFAA3E21DCEA3400DBEB02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4170EEE903C295ADCE3C9A0 /* Pods-IntercomTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IntercomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SmartData.IntercomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Intercom POC.app/Intercom POC";
+			};
+			name = Debug;
+		};
+		76AFAA3F21DCEA3400DBEB02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F45D1F677E22A676BDB17FD /* Pods-IntercomTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IntercomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SmartData.IntercomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Intercom POC.app/Intercom POC";
+			};
+			name = Release;
+		};
+		76AFAA4121DCEA3400DBEB02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BCFD0425D2E3CDAEECE589F /* Pods-IntercomUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IntercomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SmartData.IntercomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Intercom;
+			};
+			name = Debug;
+		};
+		76AFAA4221DCEA3400DBEB02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DA4AD6C5F205A8EE8FA106D /* Pods-IntercomUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IntercomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SmartData.IntercomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Intercom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76AFAA0D21DCEA2900DBEB02 /* Build configuration list for PBXProject "Intercom POC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76AFAA3821DCEA3400DBEB02 /* Debug */,
+				76AFAA3921DCEA3400DBEB02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76AFAA3A21DCEA3400DBEB02 /* Build configuration list for PBXNativeTarget "Intercom POC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76AFAA3B21DCEA3400DBEB02 /* Debug */,
+				76AFAA3C21DCEA3400DBEB02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76AFAA3D21DCEA3400DBEB02 /* Build configuration list for PBXNativeTarget "Intercom POCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76AFAA3E21DCEA3400DBEB02 /* Debug */,
+				76AFAA3F21DCEA3400DBEB02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76AFAA4021DCEA3400DBEB02 /* Build configuration list for PBXNativeTarget "Intercom POCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76AFAA4121DCEA3400DBEB02 /* Debug */,
+				76AFAA4221DCEA3400DBEB02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76AFAA0A21DCEA2900DBEB02 /* Project object */;
+}

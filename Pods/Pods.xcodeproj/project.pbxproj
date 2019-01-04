@@ -1,0 +1,911 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1189304E362C84BECCCE145510E40684 /* Intercom */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 69626C95C3FC2C3237C58B421301C39D /* Build configuration list for PBXAggregateTarget "Intercom" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Intercom;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		06D75C9FCBD0BC2BD3B5D210BE9F150A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		0A3845C60939E51EB0C4B35E17EABA7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		22944F768EADECA430F065AB1B0E6046 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		22D0ED29331E28B95CCF910DBFB8F88B /* Pods-IntercomTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C350FB8C3DAEFA8908BF3A0963E6B46 /* Pods-IntercomTests-dummy.m */; };
+		290CEDD5A52BA3427DA7DEF7BA22490E /* Pods-IntercomUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FD691BD5B846384A76AD3FABCD7C7DE /* Pods-IntercomUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F95800C74A038A9F3774D40A53E2692 /* Pods-IntercomTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E2CEABC7BCB8BA67B7900DF217D2D3B /* Pods-IntercomTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31A0303EE8D2B444B11FBB621BBCF31A /* Pods-Intercom-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E14146759D0CF89DD7ABF294B26EF6EA /* Pods-Intercom-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4DA7EC25715246C44E1D0EA88B86D0A /* Pods-Intercom-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9940A56216E4AE43207AADC34208C619 /* Pods-Intercom-dummy.m */; };
+		F702A518C9689334E544807A48D8AD23 /* Pods-IntercomUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D6D7E3331921DBBD4084385F8FEAEB /* Pods-IntercomUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CACA4EE88E3B8388AF0C5D030265E25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F272035B23A1795741E57A859F38582;
+			remoteInfo = "Pods-Intercom";
+		};
+		75B33B405EE91C5943244F0EB1C47E52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1189304E362C84BECCCE145510E40684;
+			remoteInfo = Intercom;
+		};
+		F8F5C89559788AC9866BD1AC778B7801 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F272035B23A1795741E57A859F38582;
+			remoteInfo = "Pods-Intercom";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		021089818AD14832BE89BA14A9F9BED1 /* Pods-Intercom-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Intercom-Info.plist"; sourceTree = "<group>"; };
+		03D6D7E3331921DBBD4084385F8FEAEB /* Pods-IntercomUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IntercomUITests-dummy.m"; sourceTree = "<group>"; };
+		072B815BC4D23C211DB0172BE7BB8C49 /* Pods_IntercomUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IntercomUITests.framework; path = "Pods-IntercomUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FA83812006DB5B2B8525E3736A6FC3A /* Pods-Intercom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Intercom.release.xcconfig"; sourceTree = "<group>"; };
+		1E2CEABC7BCB8BA67B7900DF217D2D3B /* Pods-IntercomTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IntercomTests-umbrella.h"; sourceTree = "<group>"; };
+		24333622DD1E33A1A93684380C0884DC /* Pods-IntercomTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IntercomTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		29F5ACCE6BA0AF2EF42F5C1F53540E3B /* IntercomTranslations.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IntercomTranslations.bundle; path = Intercom/Intercom.framework/Versions/A/Resources/IntercomTranslations.bundle; sourceTree = "<group>"; };
+		2DDE96C69D68E8824150FE9301D21E6D /* Pods-Intercom.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Intercom.modulemap"; sourceTree = "<group>"; };
+		39D9824BC73141CD1F1FBA708EE686D9 /* Intercom+Experimental.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Intercom+Experimental.h"; path = "Intercom/Intercom.framework/Versions/A/Headers/Intercom+Experimental.h"; sourceTree = "<group>"; };
+		41389AB4F60A4391FB0AF3B460B56688 /* Pods-IntercomUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IntercomUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C350FB8C3DAEFA8908BF3A0963E6B46 /* Pods-IntercomTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IntercomTests-dummy.m"; sourceTree = "<group>"; };
+		5FD509BC3EBBB695288BD0E591883E4B /* Intercom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Intercom.h; path = Intercom/Intercom.framework/Versions/A/Headers/Intercom.h; sourceTree = "<group>"; };
+		620054061944225469DE51F396915E03 /* Pods-Intercom-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Intercom-acknowledgements.plist"; sourceTree = "<group>"; };
+		63706311BC6A77BD0A09B4D754CC21B0 /* Pods-IntercomTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IntercomTests-Info.plist"; sourceTree = "<group>"; };
+		65310BB62D6651FBD28ED691CAF9AC1E /* Pods-Intercom-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Intercom-acknowledgements.markdown"; sourceTree = "<group>"; };
+		67494354A53249AD793E32173C705B01 /* Pods-IntercomUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IntercomUITests.modulemap"; sourceTree = "<group>"; };
+		714550B09881A34BBC1A5303D9FD9430 /* Intercom.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Intercom.bundle; path = Intercom/Intercom.framework/Versions/A/Resources/Intercom.bundle; sourceTree = "<group>"; };
+		725E4ECC984D366D11FEA822A320B418 /* Pods_IntercomTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IntercomTests.framework; path = "Pods-IntercomTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7579EEBDA7B99D4298C436D4E15F078D /* Pods-IntercomUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IntercomUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		78F9F814FE6C15C55D0B5B4949C7AADC /* Pods-IntercomTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IntercomTests.release.xcconfig"; sourceTree = "<group>"; };
+		7EA9C2B24E8B831E1723A239B51BDD19 /* Pods-IntercomTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IntercomTests.modulemap"; sourceTree = "<group>"; };
+		7FD691BD5B846384A76AD3FABCD7C7DE /* Pods-IntercomUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IntercomUITests-umbrella.h"; sourceTree = "<group>"; };
+		87ACE2B2263EF2F06F8FA7A7A2030842 /* Pods_Intercom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Intercom.framework; path = "Pods-Intercom.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9940A56216E4AE43207AADC34208C619 /* Pods-Intercom-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Intercom-dummy.m"; sourceTree = "<group>"; };
+		99E706A73EB42463A0AFBB79A63F603E /* Intercom.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intercom.framework; path = Intercom/Intercom.framework; sourceTree = "<group>"; };
+		9DD812ACA25E111FA9C4ED0B25D8080A /* Pods-IntercomUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IntercomUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A0AFB9B19B66BF0F534FEFE5C04B6EDB /* ICMCompany.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICMCompany.h; path = Intercom/Intercom.framework/Versions/A/Headers/ICMCompany.h; sourceTree = "<group>"; };
+		A338282ADEC2193F218D293DDC23EC51 /* Pods-IntercomUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IntercomUITests-Info.plist"; sourceTree = "<group>"; };
+		AB892F15FEC4386C19312345B149D529 /* Pods-IntercomTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IntercomTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BE07AB0AE6375D60E4FC8D6F70DE234A /* Pods-IntercomTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IntercomTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF2971F03A95B90D1F23C31053DD7D2E /* Pods-IntercomUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IntercomUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C0485FFCFC0CE3BD46EB673C4CF8A7F4 /* Pods-Intercom-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Intercom-resources.sh"; sourceTree = "<group>"; };
+		C38666A03CE534C99BAE16B629325C1B /* ICMUserAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICMUserAttributes.h; path = Intercom/Intercom.framework/Versions/A/Headers/ICMUserAttributes.h; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DD5A18B4EB12C1D09F3C54C6F6F96591 /* Pods-Intercom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Intercom.debug.xcconfig"; sourceTree = "<group>"; };
+		E14146759D0CF89DD7ABF294B26EF6EA /* Pods-Intercom-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Intercom-umbrella.h"; sourceTree = "<group>"; };
+		F4A02F2779794FF0D8BB427D0F7C9D61 /* Intercom.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Intercom.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89DE6D4392504AFE6A5B377C6D6F56B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22944F768EADECA430F065AB1B0E6046 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E6B8748C579486B4DF8FF4407879B10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A3845C60939E51EB0C4B35E17EABA7A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BC09D5264A12BF72996DF997B3317F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D75C9FCBD0BC2BD3B5D210BE9F150A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		005EFF5DC0572637375E67BAC358B0BB /* Pods-Intercom */ = {
+			isa = PBXGroup;
+			children = (
+				2DDE96C69D68E8824150FE9301D21E6D /* Pods-Intercom.modulemap */,
+				65310BB62D6651FBD28ED691CAF9AC1E /* Pods-Intercom-acknowledgements.markdown */,
+				620054061944225469DE51F396915E03 /* Pods-Intercom-acknowledgements.plist */,
+				9940A56216E4AE43207AADC34208C619 /* Pods-Intercom-dummy.m */,
+				021089818AD14832BE89BA14A9F9BED1 /* Pods-Intercom-Info.plist */,
+				C0485FFCFC0CE3BD46EB673C4CF8A7F4 /* Pods-Intercom-resources.sh */,
+				E14146759D0CF89DD7ABF294B26EF6EA /* Pods-Intercom-umbrella.h */,
+				DD5A18B4EB12C1D09F3C54C6F6F96591 /* Pods-Intercom.debug.xcconfig */,
+				0FA83812006DB5B2B8525E3736A6FC3A /* Pods-Intercom.release.xcconfig */,
+			);
+			name = "Pods-Intercom";
+			path = "Target Support Files/Pods-Intercom";
+			sourceTree = "<group>";
+		};
+		0BFC5A66D6983D775C969E20CF0F1D61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA7F7816DF0E450DF664AB39C32DBA7C /* Intercom */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		14E583B34386498EBAFFF09CBBF4E26C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4A02F2779794FF0D8BB427D0F7C9D61 /* Intercom.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Intercom";
+			sourceTree = "<group>";
+		};
+		188B34738A727F0813EAD83991B16216 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				005EFF5DC0572637375E67BAC358B0BB /* Pods-Intercom */,
+				2F5EAFD4805DDC68385F4A37B3A7C97A /* Pods-IntercomTests */,
+				B5F19852E5408AE5F15BD1C04672C40C /* Pods-IntercomUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		26CB5BD568B4A998D5481950F68C40E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87ACE2B2263EF2F06F8FA7A7A2030842 /* Pods_Intercom.framework */,
+				725E4ECC984D366D11FEA822A320B418 /* Pods_IntercomTests.framework */,
+				072B815BC4D23C211DB0172BE7BB8C49 /* Pods_IntercomUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BFC57E58D44E37905D896D1F1065861 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99E706A73EB42463A0AFBB79A63F603E /* Intercom.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F5EAFD4805DDC68385F4A37B3A7C97A /* Pods-IntercomTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EA9C2B24E8B831E1723A239B51BDD19 /* Pods-IntercomTests.modulemap */,
+				AB892F15FEC4386C19312345B149D529 /* Pods-IntercomTests-acknowledgements.markdown */,
+				24333622DD1E33A1A93684380C0884DC /* Pods-IntercomTests-acknowledgements.plist */,
+				5C350FB8C3DAEFA8908BF3A0963E6B46 /* Pods-IntercomTests-dummy.m */,
+				63706311BC6A77BD0A09B4D754CC21B0 /* Pods-IntercomTests-Info.plist */,
+				1E2CEABC7BCB8BA67B7900DF217D2D3B /* Pods-IntercomTests-umbrella.h */,
+				BE07AB0AE6375D60E4FC8D6F70DE234A /* Pods-IntercomTests.debug.xcconfig */,
+				78F9F814FE6C15C55D0B5B4949C7AADC /* Pods-IntercomTests.release.xcconfig */,
+			);
+			name = "Pods-IntercomTests";
+			path = "Target Support Files/Pods-IntercomTests";
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0BFC5A66D6983D775C969E20CF0F1D61 /* Pods */,
+				26CB5BD568B4A998D5481950F68C40E6 /* Products */,
+				188B34738A727F0813EAD83991B16216 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B5F19852E5408AE5F15BD1C04672C40C /* Pods-IntercomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67494354A53249AD793E32173C705B01 /* Pods-IntercomUITests.modulemap */,
+				7579EEBDA7B99D4298C436D4E15F078D /* Pods-IntercomUITests-acknowledgements.markdown */,
+				9DD812ACA25E111FA9C4ED0B25D8080A /* Pods-IntercomUITests-acknowledgements.plist */,
+				03D6D7E3331921DBBD4084385F8FEAEB /* Pods-IntercomUITests-dummy.m */,
+				A338282ADEC2193F218D293DDC23EC51 /* Pods-IntercomUITests-Info.plist */,
+				7FD691BD5B846384A76AD3FABCD7C7DE /* Pods-IntercomUITests-umbrella.h */,
+				41389AB4F60A4391FB0AF3B460B56688 /* Pods-IntercomUITests.debug.xcconfig */,
+				BF2971F03A95B90D1F23C31053DD7D2E /* Pods-IntercomUITests.release.xcconfig */,
+			);
+			name = "Pods-IntercomUITests";
+			path = "Target Support Files/Pods-IntercomUITests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA7F7816DF0E450DF664AB39C32DBA7C /* Intercom */ = {
+			isa = PBXGroup;
+			children = (
+				A0AFB9B19B66BF0F534FEFE5C04B6EDB /* ICMCompany.h */,
+				C38666A03CE534C99BAE16B629325C1B /* ICMUserAttributes.h */,
+				5FD509BC3EBBB695288BD0E591883E4B /* Intercom.h */,
+				39D9824BC73141CD1F1FBA708EE686D9 /* Intercom+Experimental.h */,
+				2BFC57E58D44E37905D896D1F1065861 /* Frameworks */,
+				FF050854C69CBE9CAC40CCB4E2F3B4DA /* Resources */,
+				14E583B34386498EBAFFF09CBBF4E26C /* Support Files */,
+			);
+			name = Intercom;
+			path = Intercom;
+			sourceTree = "<group>";
+		};
+		FF050854C69CBE9CAC40CCB4E2F3B4DA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				714550B09881A34BBC1A5303D9FD9430 /* Intercom.bundle */,
+				29F5ACCE6BA0AF2EF42F5C1F53540E3B /* IntercomTranslations.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3B60F097BFE4386AA090B1B7A53D3BC8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F95800C74A038A9F3774D40A53E2692 /* Pods-IntercomTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40FD6D0F6A92A39FFD3365B8B0956246 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31A0303EE8D2B444B11FBB621BBCF31A /* Pods-Intercom-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A437745DAE043D33E0DE0DE6F9C5C98 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290CEDD5A52BA3427DA7DEF7BA22490E /* Pods-IntercomUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		102293F636F601D5BF853CCBA0AC25A3 /* Pods-IntercomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C66A3A50E75DC092BE158F6EC9D1D521 /* Build configuration list for PBXNativeTarget "Pods-IntercomTests" */;
+			buildPhases = (
+				3B60F097BFE4386AA090B1B7A53D3BC8 /* Headers */,
+				23E39B9CD8744E755C31E6EA33BBB476 /* Sources */,
+				B9BC09D5264A12BF72996DF997B3317F /* Frameworks */,
+				40B6D630708EE093C4D5B049C3683550 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF2C5FEAB14EDE939E4C04C75F50EC5E /* PBXTargetDependency */,
+			);
+			name = "Pods-IntercomTests";
+			productName = "Pods-IntercomTests";
+			productReference = 725E4ECC984D366D11FEA822A320B418 /* Pods_IntercomTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		796B1505B93D0CC27261B810A57A6BE0 /* Pods-IntercomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFEA48FB69F3DD966F543DB4BF781237 /* Build configuration list for PBXNativeTarget "Pods-IntercomUITests" */;
+			buildPhases = (
+				7A437745DAE043D33E0DE0DE6F9C5C98 /* Headers */,
+				84C255DB939F34733F84649BA551871C /* Sources */,
+				8E6B8748C579486B4DF8FF4407879B10 /* Frameworks */,
+				96F3B978F7226769F811067DAAE3B5CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD62F9709C1772BAC8D3061C509D0A66 /* PBXTargetDependency */,
+			);
+			name = "Pods-IntercomUITests";
+			productName = "Pods-IntercomUITests";
+			productReference = 072B815BC4D23C211DB0172BE7BB8C49 /* Pods_IntercomUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F272035B23A1795741E57A859F38582 /* Pods-Intercom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D2C77356313B65396EF68B2932E54B6 /* Build configuration list for PBXNativeTarget "Pods-Intercom" */;
+			buildPhases = (
+				40FD6D0F6A92A39FFD3365B8B0956246 /* Headers */,
+				884CD0D053EF9C89C25B78F4296DED0D /* Sources */,
+				89DE6D4392504AFE6A5B377C6D6F56B5 /* Frameworks */,
+				4C8EA3FCA2C00AD21C7C2B0960715609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C7BCA035BE56B1F7189F409AA39DA7A /* PBXTargetDependency */,
+			);
+			name = "Pods-Intercom";
+			productName = "Pods-Intercom";
+			productReference = 87ACE2B2263EF2F06F8FA7A7A2030842 /* Pods_Intercom.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 26CB5BD568B4A998D5481950F68C40E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1189304E362C84BECCCE145510E40684 /* Intercom */,
+				9F272035B23A1795741E57A859F38582 /* Pods-Intercom */,
+				102293F636F601D5BF853CCBA0AC25A3 /* Pods-IntercomTests */,
+				796B1505B93D0CC27261B810A57A6BE0 /* Pods-IntercomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40B6D630708EE093C4D5B049C3683550 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C8EA3FCA2C00AD21C7C2B0960715609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F3B978F7226769F811067DAAE3B5CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23E39B9CD8744E755C31E6EA33BBB476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D0ED29331E28B95CCF910DBFB8F88B /* Pods-IntercomTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C255DB939F34733F84649BA551871C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F702A518C9689334E544807A48D8AD23 /* Pods-IntercomUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884CD0D053EF9C89C25B78F4296DED0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4DA7EC25715246C44E1D0EA88B86D0A /* Pods-Intercom-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7C7BCA035BE56B1F7189F409AA39DA7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Intercom;
+			target = 1189304E362C84BECCCE145510E40684 /* Intercom */;
+			targetProxy = 75B33B405EE91C5943244F0EB1C47E52 /* PBXContainerItemProxy */;
+		};
+		FD62F9709C1772BAC8D3061C509D0A66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Intercom";
+			target = 9F272035B23A1795741E57A859F38582 /* Pods-Intercom */;
+			targetProxy = 4CACA4EE88E3B8388AF0C5D030265E25 /* PBXContainerItemProxy */;
+		};
+		FF2C5FEAB14EDE939E4C04C75F50EC5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Intercom";
+			target = 9F272035B23A1795741E57A859F38582 /* Pods-Intercom */;
+			targetProxy = F8F5C89559788AC9866BD1AC778B7801 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08C8212394636AD09FACBC1620F1B868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78F9F814FE6C15C55D0B5B4949C7AADC /* Pods-IntercomTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IntercomTests/Pods-IntercomTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IntercomTests/Pods-IntercomTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0AA3B91655AF95B1F49159CD8085CD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0C447970805A8EAAE8BEB53F02EB3003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD5A18B4EB12C1D09F3C54C6F6F96591 /* Pods-Intercom.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Intercom/Pods-Intercom-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Intercom/Pods-Intercom.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0E6F97BA222BBFCBF3C501016A48D790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF2971F03A95B90D1F23C31053DD7D2E /* Pods-IntercomUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IntercomUITests/Pods-IntercomUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IntercomUITests/Pods-IntercomUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3CE26F7BE68806D2111149DE8869F0E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4A02F2779794FF0D8BB427D0F7C9D61 /* Intercom.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		697F7BF5B0D6A98E9036A59B136C33E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FA83812006DB5B2B8525E3736A6FC3A /* Pods-Intercom.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Intercom/Pods-Intercom-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Intercom/Pods-Intercom.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8000995DA02063BF3777393CD52061DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9BC105C05F42C1C3B422F9FF62274EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41389AB4F60A4391FB0AF3B460B56688 /* Pods-IntercomUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IntercomUITests/Pods-IntercomUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IntercomUITests/Pods-IntercomUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D92846F2BB7EA3BD315F50774AA21CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE07AB0AE6375D60E4FC8D6F70DE234A /* Pods-IntercomTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IntercomTests/Pods-IntercomTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IntercomTests/Pods-IntercomTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E344D9A3EC6B90B042F8937D69BE9D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4A02F2779794FF0D8BB427D0F7C9D61 /* Intercom.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA3B91655AF95B1F49159CD8085CD89 /* Debug */,
+				8000995DA02063BF3777393CD52061DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D2C77356313B65396EF68B2932E54B6 /* Build configuration list for PBXNativeTarget "Pods-Intercom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C447970805A8EAAE8BEB53F02EB3003 /* Debug */,
+				697F7BF5B0D6A98E9036A59B136C33E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69626C95C3FC2C3237C58B421301C39D /* Build configuration list for PBXAggregateTarget "Intercom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CE26F7BE68806D2111149DE8869F0E2 /* Debug */,
+				E344D9A3EC6B90B042F8937D69BE9D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C66A3A50E75DC092BE158F6EC9D1D521 /* Build configuration list for PBXNativeTarget "Pods-IntercomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92846F2BB7EA3BD315F50774AA21CC1 /* Debug */,
+				08C8212394636AD09FACBC1620F1B868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFEA48FB69F3DD966F543DB4BF781237 /* Build configuration list for PBXNativeTarget "Pods-IntercomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BC105C05F42C1C3B422F9FF62274EBB /* Debug */,
+				0E6F97BA222BBFCBF3C501016A48D790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
