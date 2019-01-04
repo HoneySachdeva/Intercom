@@ -68,4 +68,10 @@ kappdelegate.showIntercomLauncherButton(email: "abc@gmail.com")
 }
 
 
+7. To hide Intercom Button
 
+kappdelegate.hideIntercomLauncherButton()
+
+8. To Logout User
+
+kappdelegate.logoutIntercom()
